@@ -11,3 +11,7 @@ populate-dbs:
 drop-dbs:
 	chmod +x drop-dbs.sh
 	sh drop-dbs.sh
+
+prepare-submodules:
+	git submodule init
+	git submodule update
