@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  mongo4:
+    image: mongo:4
+    ports:
+      - "27017:27017"
+  mongo3.6:
+    image: mongo:3.6
+    ports:
+      - "27018:27017"
+  mongo3.4:
+    image: mongo:3.4
+    ports:
+      - "27019:27017"

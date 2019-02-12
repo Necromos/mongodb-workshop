@@ -1,0 +1,3 @@
+[submodule "test-datasets/northwind-mongo"]
+	path = test-datasets/northwind-mongo
+	url = https://github.com/tmcnab/northwind-mongo
