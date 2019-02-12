@@ -5,12 +5,12 @@ kill:
 	docker ps -q | xargs docker kill
 
 populate-dbs:
-	chmod +x import-sets.sh
-	sh import-sets.sh
+	chmod +x scripts/import-sets.sh
+	sh scripts/import-sets.sh
 
 drop-dbs:
-	chmod +x drop-dbs.sh
-	sh drop-dbs.sh
+	chmod +x scripts/drop-dbs.sh
+	sh scripts/drop-dbs.sh
 
 prepare-submodules:
 	git submodule init
